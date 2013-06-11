@@ -27,4 +27,3 @@ void pbl_main(void *params) {
   };
   app_event_loop(params, &handlers);
 }
-
