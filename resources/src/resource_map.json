@@ -1,9 +1,14 @@
 {
     "media": [
         {
+            "defName": "IMAGE_MENU_ICON",
+            "type": "png",
+            "file": "images/glyphicons_323_calculator.png"
+        },
+        {
             "defName": "DUMMY",
             "type": "raw",
-            "file": "resource_map.json"
+            "file": "data/resource_map.json"
         }
     ],
     "friendlyVersion": "VERSION",

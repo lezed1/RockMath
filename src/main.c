@@ -5,9 +5,9 @@
 
 #define MY_UUID { 0x89, 0x91, 0x5B, 0x7E, 0xA0, 0xFB, 0x44, 0xC0, 0xBB, 0xE3, 0xE5, 0x0B, 0xD1, 0xC6, 0x47, 0xBA }
 PBL_APP_INFO(MY_UUID,
-             "Template App", "Your Company",
+             "RockMath", "lezed1",
              1, 0, /* App version */
-             DEFAULT_MENU_ICON,
+             RESOURCE_ID_IMAGE_MENU_ICON,
              APP_INFO_STANDARD_APP);
 
 Window window;
@@ -16,7 +16,7 @@ Window window;
 void handle_init(AppContextRef ctx) {
   (void)ctx;
 
-  window_init(&window, "Window Name");
+  window_init(&window, "RockMath Main Window");
   window_stack_push(&window, true /* Animated */);
 }
 
